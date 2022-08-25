@@ -1,0 +1,23 @@
+name: "my-website"
+navbar:
+  title: "PS Fantasy Football League"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Artikel"
+      href: artikel.html
+    - text: "All-Time Stats"
+      href: alltimestats.html
+    - text: "Statistiken 2021"
+      href: currentyearstats.html
+    - text: "Drafts"
+      href: drafts.html
+    - text: "Rekorde"
+      href: rekorde.html
+    - text: "Historie"
+      href: historie.html
+      
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
